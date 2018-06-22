@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+*****************************************************************************
+*   RECURSO FHIR                                                            *
+*   Estándar: HL7 FHIR® STU3                                                *
+*   Recurso: CodeSystem                                                     *
+*   Versión del documento: 1.0                                              *
+*   Fecha: 2018-01-01                                                       *
+*   Diseño de perfil:   Interoperar                                         *
+*   Autores:    Mario Enrique Cortés <mario.cortes@interoperar.com>         *
+*               Jaime Alberto Ramírez <jaime.ramirez@interoperar.com>       *
+*****************************************************************************
+-->
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="personal-identifier-type-co"/>
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <h1>Tipo de Identificación de Personas - Colombia</h1>
+            <ul>
+                <li><b>System URL:
+                </b>https://github.com/interoperar/fhir-local-terminologies/identifiers/personal-identifier-type-co</li>
+                <li><b>Identifier: </b>personal-identifier-type-co</li>
+                <li><b>Version: </b>1.0</li>
+                <li><b>Name: </b>Tipo Identificación Personas - Colombia</li>
+                <li><b>Status: </b>Active</li>
+                <li><b>Date: </b>2018-01-01</li>
+                <li><b>Publisher: </b>Ministerio de Salud y Protección Social</li>
+                <li><b>Contact: </b>https://www.minsalud.gov.co/</li>
+                <li><b>Description: </b>Tipo de identificación de la persona (usuario del sistema de
+                    salud). <br/>Corresponde al documento de la Registraduría Nacional con el cual
+                    se identifican las personas ante el Sistema de Salud Colombiano, con excepción
+                    de las personas que no se han registrado. <br/><b>Reglas de uso.</b>
+                    <ul>
+                        <li> Para los adultos, mayores de 18 años de nacionalidad colombiana, el
+                            documento con el cual se deben identificar es la <b>cédula de
+                                ciudadanía</b>.</li>
+                        <li> Para los extranjeros que se encuentran de paso en el país se
+                            identifican con el <b>pasaporte</b>, y para los residentes o con permiso
+                            de permanencia, es decir, no turisrtas, se deben identificar con la
+                                <b>cédula de extranjería</b>.</li>
+                        <li> Los niños entre 7 y 17 años, deben identificarse con la <b>tarjeta de
+                                identidad</b>.</li>
+                        <li> Para niños menores de 7 años, el tipo documento será el <b>registro
+                                civil</b>.</li>
+                        <li>
+                            <b>MS: </b>Solo se debe utilizar para el Recién Nacido vivo sin
+                            identificar (hasta los 30 días de nacido), y se registra: Número de
+                            documento de la madre si existe o el número de documento del cabeza de
+                            familia y un consecutivo iniciando en uno (1).</li>
+                        <li> Si el menor ya está registrado el documento será el <b>Registro
+                                Civíl</b> (RC).</li>
+                        <li>
+                            <b>MS y AS</b> en poblaciones especiales, el registro se debe ceñir al
+                            lo contenido en el anexo técnico de la Resolución 890/2007.</li>
+                        <li/>
+                    </ul>
+                </li>
+                <li><b>Jurisdiction: </b>Colombia</li>
+                <li><b>Copyright: </b>GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007 -
+                    Creative Commons Attribution-ShareAlike 4.0 International Public License</li>
+                <li><b>Case Sensitive: </b>True</li>
+                <li><b>Content: </b>Complete</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Display</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CC</td>
+                        <td>Cédula de Ciudadanía</td>
+                    </tr>
+                    <tr>
+                        <td>CE</td>
+                        <td>Cédula de Extranjería</td>
+                    </tr>
+                    <tr>
+                        <td>PA</td>
+                        <td>Pasaporte</td>
+                    </tr>
+                    <tr>
+                        <td>RC</td>
+                        <td>Registro Civil</td>
+                    </tr>
+                    <tr>
+                        <td>TI</td>
+                        <td>Tarjeta de Identidad</td>
+                    </tr>
+                    <tr>
+                        <td>NUI</td>
+                        <td>Número Único de Identificación Personal</td>
+                    </tr>
+                    <tr>
+                        <td>CD</td>
+                        <td>Carné Diplomático</td>
+                    </tr>
+                    <tr>
+                        <td>PE</td>
+                        <td>Permiso Especial</td>
+                    </tr>
+                    <tr>
+                        <td>AS</td>
+                        <td>Adulto sin identificación</td>
+                    </tr>
+                    <tr>
+                        <td>MS</td>
+                        <td>Menor sin identificación</td>
+                    </tr>
+                    <tr>
+                        <td>NN</td>
+                        <td>Sin Nombre</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </text>
+    <url
+        value="https://github.com/interoperar/fhir-local-terminologies/identifiers/personal-identifier-type-co"/>
+    <identifier>
+        <system value="https://github.com/interoperar/fhir-local-terminologies/identifiers/"/>
+        <value value="personal-identifier-type-co"/>
+    </identifier>
+    <version value="1.0"/>
+    <name value="Tipo Identificación Personas - Colombia"/>
+    <title value="Tipo de Identificación de Personas - Colombia"/>
+    <status value="active"/>
+    <date value="2018-01-01"/>
+    <publisher value="Ministerio de Salud y Protección Social"/>
+    <contact>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.minsalud.gov.co/"/>
+        </telecom>
+    </contact>
+    <description
+        value="#Descripción.
+        Tipo de identificación de la persona (usuario del sistema de salud).  
+        Corresponde al documento de la Registraduría Nacional con el cual se identifican las personas ante el Sistema de Salud Colombiano, con excepción de las personas que no se han registrado.  
+        ##Reglas de uso.
+        * Para los adultos, mayores de 18 años de nacionalidad colombiana, el documento con el cual se deben identificar es la **cédula de ciudadanía**.  
+        * Para los extranjeros que se encuentran de paso en el país se identifican con el **pasaporte**, y para los residentes o con permiso de permanencia, es decir, no turisrtas, se deben identificar con la **cédula de extranjería**.
+        * Los niños entre 7 y 17 años, deben identificarse con la **tarjeta de identidad**.
+        * Para niños menores de 7 años, el tipo documento será el **registro civil**.
+        * **MS**: Solo se debe utilizar para el Recién Nacido vivo sin identificar (hasta los 30 días de nacido), y se registra: Número de documento de la madre si existe o el número de documento del cabeza de familia y un consecutivo iniciando en uno (1).
+        * Si el menor ya está registrado el documento será el **Registro Civíl** (RC).
+        * **MS y AS** en poblaciones especiales, el registro se debe ceñir al lo contenido en el anexo técnico de la Resolución 890/2007."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CO"/>
+            <display value="Colombia"/>
+        </coding>
+    </jurisdiction>
+    <copyright
+        value="* GNU LESSER GENERAL PUBLIC LICENSE *Version 3, 29 June 2007*
+        * Creative Commons Attribution-ShareAlike 4.0 International Public License"/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="CC"/>
+        <display value="Cédula de Ciudadanía"/>
+    </concept>
+    <concept>
+        <code value="CE"/>
+        <display value="Cédula de Extranjería"/>
+    </concept>
+    <concept>
+        <code value="PA"/>
+        <display value="Pasaporte"/>
+    </concept>
+    <concept>
+        <code value="RC"/>
+        <display value="Registro Civil"/>
+    </concept>
+    <concept>
+        <code value="TI"/>
+        <display value="Tarjeta de Identidad"/>
+    </concept>
+    <concept>
+        <code value="NUI"/>
+        <display value="Número Único de Identificación Personal"/>
+    </concept>
+    <concept>
+        <code value="CD"/>
+        <display value="Carné Diplomático"/>
+    </concept>
+    <concept>
+        <code value="PE"/>
+        <display value="Permiso Especial"/>
+    </concept>
+    <concept>
+        <code value="AS"/>
+        <display value="Adulto sin identificación"/>
+    </concept>
+    <concept>
+        <code value="MS"/>
+        <display value="Menor sin identificación"/>
+    </concept>
+    <concept>
+        <code value="NN"/>
+        <display value="Sin Nombre"/>
+    </concept>
+</CodeSystem>

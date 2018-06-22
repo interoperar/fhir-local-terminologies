@@ -1,0 +1,94 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "personal-identifier-type-co",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2018-06-22T01:24:19.028+00:00"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <h1>Tipo de Identificación de Personas - Colombia</h1>\n            <ul>\n                <li><b>System URL:\n                    </b>https://github.com/interoperar/fhir-local-terminologies/identifiers/personal-identifier-type-co</li>\n                <li><b>Identifier: </b>personal-identifier-type-co</li>\n                <li><b>Version: </b>1.0</li>\n                <li><b>Name: </b>Tipo Identificación Personas - Colombia</li>\n                <li><b>Status: </b>Active</li>\n                <li><b>Date: </b>2018-01-01</li>\n                <li><b>Publisher: </b>Ministerio de Salud y Protección Social</li>\n                <li><b>Contact: </b>https://www.minsalud.gov.co/</li>\n                <li><b>Description: </b>Tipo de identificación de la persona (usuario del sistema de\n                    salud). <br/>Corresponde al documento de la Registraduría Nacional con el cual\n                    se identifican las personas ante el Sistema de Salud Colombiano, con excepción\n                    de las personas que no se han registrado. <br/><b>Reglas de uso.</b>\n                    <ul>\n                        <li> Para los adultos, mayores de 18 años de nacionalidad colombiana, el\n                            documento con el cual se deben identificar es la <b>cédula de\n                                ciudadanía</b>.</li>\n                        <li> Para los extranjeros que se encuentran de paso en el país se\n                            identifican con el <b>pasaporte</b>, y para los residentes o con permiso\n                            de permanencia, es decir, no turisrtas, se deben identificar con la\n                                <b>cédula de extranjería</b>.</li>\n                        <li> Los niños entre 7 y 17 años, deben identificarse con la <b>tarjeta de\n                                identidad</b>.</li>\n                        <li> Para niños menores de 7 años, el tipo documento será el <b>registro\n                                civil</b>.</li>\n                        <li>\n                            <b>MS: </b>Solo se debe utilizar para el Recién Nacido vivo sin\n                            identificar (hasta los 30 días de nacido), y se registra: Número de\n                            documento de la madre si existe o el número de documento del cabeza de\n                            familia y un consecutivo iniciando en uno (1).</li>\n                        <li> Si el menor ya está registrado el documento será el <b>Registro\n                                Civíl</b> (RC).</li>\n                        <li>\n                            <b>MS y AS</b> en poblaciones especiales, el registro se debe ceñir al\n                            lo contenido en el anexo técnico de la Resolución 890/2007.</li>\n                        <li></li>\n                    </ul>\n                </li>\n                <li><b>Jurisdiction: </b>Colombia</li>\n                <li><b>Copyright: </b>GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007 -\n                    Creative Commons Attribution-ShareAlike 4.0 International Public License</li>\n                <li><b>Case Sensitive: </b>True</li>\n                <li><b>Content: </b>Complete</li>\n            </ul>\n            <table>\n                <thead>\n                    <tr>\n                        <th>Code</th>\n                        <th>Display</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>CC</td>\n                        <td>Cédula de Ciudadanía</td>\n                    </tr>\n                    <tr>\n                        <td>CE</td>\n                        <td>Cédula de Extranjería</td>\n                    </tr>\n                    <tr>\n                        <td>PA</td>\n                        <td>Pasaporte</td>\n                    </tr>\n                    <tr>\n                        <td>RC</td>\n                        <td>Registro Civil</td>\n                    </tr>\n                    <tr>\n                        <td>TI</td>\n                        <td>Tarjeta de Identidad</td>\n                    </tr>\n                    <tr>\n                        <td>NUI</td>\n                        <td>Número Único de Identificación Personal</td>\n                    </tr>\n                    <tr>\n                        <td>CD</td>\n                        <td>Carné Diplomático</td>\n                    </tr>\n                    <tr>\n                        <td>PE</td>\n                        <td>Permiso Especial</td>\n                    </tr>\n                    <tr>\n                        <td>AS</td>\n                        <td>Adulto sin identificación</td>\n                    </tr>\n                    <tr>\n                        <td>MS</td>\n                        <td>Menor sin identificación</td>\n                    </tr>\n                    <tr>\n                        <td>NN</td>\n                        <td>Sin Nombre</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>"
+    },
+    "url": "https://github.com/interoperar/fhir-local-terminologies/identifiers/personal-identifier-type-co",
+    "identifier": {
+        "system": "https://github.com/interoperar/fhir-local-terminologies/identifiers/",
+        "value": "personal-identifier-type-co"
+    },
+    "version": "1.0",
+    "name": "Tipo Identificación Personas - Colombia",
+    "title": "Tipo de Identificación de Personas - Colombia",
+    "status": "active",
+    "date": "2018-01-01",
+    "publisher": "Ministerio de Salud y Protección Social",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "https://www.minsalud.gov.co/"
+                }
+            ]
+        }
+    ],
+    "description": "#Descripción.         Tipo de identificación de la persona (usuario del sistema de salud).           Corresponde al documento de la Registraduría Nacional con el cual se identifican las personas ante el Sistema de Salud Colombiano, con excepción de las personas que no se han registrado.           ##Reglas de uso.         * Para los adultos, mayores de 18 años de nacionalidad colombiana, el documento con el cual se deben identificar es la **cédula de ciudadanía**.           * Para los extranjeros que se encuentran de paso en el país se identifican con el **pasaporte**, y para los residentes o con permiso de permanencia, es decir, no turisrtas, se deben identificar con la **cédula de extranjería**.         * Los niños entre 7 y 17 años, deben identificarse con la **tarjeta de identidad**.         * Para niños menores de 7 años, el tipo documento será el **registro civil**.         * **MS**: Solo se debe utilizar para el Recién Nacido vivo sin identificar (hasta los 30 días de nacido), y se registra: Número de documento de la madre si existe o el número de documento del cabeza de familia y un consecutivo iniciando en uno (1).         * Si el menor ya está registrado el documento será el **Registro Civíl** (RC).         * **MS y AS** en poblaciones especiales, el registro se debe ceñir al lo contenido en el anexo técnico de la Resolución 890/2007.",
+    "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "urn:iso:std:iso:3166",
+                    "code": "CO",
+                    "display": "Colombia"
+                }
+            ]
+        }
+    ],
+    "copyright": "* GNU LESSER GENERAL PUBLIC LICENSE *Version 3, 29 June 2007*         * Creative Commons Attribution-ShareAlike 4.0 International Public License",
+    "caseSensitive": true,
+    "content": "complete",
+    "concept": [
+        {
+            "code": "CC",
+            "display": "Cédula de Ciudadanía"
+        },
+        {
+            "code": "CE",
+            "display": "Cédula de Extranjería"
+        },
+        {
+            "code": "PA",
+            "display": "Pasaporte"
+        },
+        {
+            "code": "RC",
+            "display": "Registro Civil"
+        },
+        {
+            "code": "TI",
+            "display": "Tarjeta de Identidad"
+        },
+        {
+            "code": "NUI",
+            "display": "Número Único de Identificación Personal"
+        },
+        {
+            "code": "CD",
+            "display": "Carné Diplomático"
+        },
+        {
+            "code": "PE",
+            "display": "Permiso Especial"
+        },
+        {
+            "code": "AS",
+            "display": "Adulto sin identificación"
+        },
+        {
+            "code": "MS",
+            "display": "Menor sin identificación"
+        },
+        {
+            "code": "NN",
+            "display": "Sin Nombre"
+        }
+    ]
+}

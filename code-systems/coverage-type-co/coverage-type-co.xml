@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+*****************************************************************************
+*   RECURSO FHIR                                                            *
+*   Estándar: HL7 FHIR® STU3                                                *
+*   Recurso: CodeSystem                                                     *
+*   Versión del documento: 1.0                                              *
+*   Fecha: 2018-01-01                                                       *
+*   Diseño de perfil:   Interoperar                                         *
+*   Autores:    Mario Enrique Cortés <mario.cortes@interoperar.com>         *
+*               Jaime Alberto Ramírez <jaime.ramirez@interoperar.com>       *
+*****************************************************************************
+-->
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="personal-identifier-type-co"/>
+    <text>
+        <status value="generated"/>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <h1>Tipo de Identificación de Personas - Colombia</h1>
+            <ul>
+                <li><b>System URL:
+                </b>https://github.com/interoperar/fhir-local-terminologies/code-systems/coverage-type-co</li>
+                <li><b>Identifier: </b>coverage-type-co</li>
+                <li><b>Version: </b>1.0</li>
+                <li><b>Name: </b>Tipo de cobertura</li>
+                <li><b>Status: </b>Active</li>
+                <li><b>Date: </b>2018-01-01</li>
+                <li><b>Publisher: </b>Ministerio de Salud y Protección Social</li>
+                <li><b>Contact: </b>https://www.minsalud.gov.co/</li>
+                <li><b>Description: </b>Tabla de tipo de cobertura o tipo de usuario del sistema de salud</li>
+                <li><b>Jurisdiction: </b>Colombia</li>
+                <li><b>Copyright: </b>GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007 -
+                    Creative Commons Attribution-ShareAlike 4.0 International Public License</li>
+                <li><b>Case Sensitive: </b>True</li>
+                <li><b>Content: </b>Complete</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Display</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Contributivo</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Subsidiado</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Vinculado</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Particular</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Otro</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Desplazado con afiliación al Régimen Contributivo</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Desplazado con afiliación al régimen subsidiado</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Desplazado no asegurado</td>
+                    </tr>
+                    <tr>
+                        <td>POS</td>
+                        <td>Paquete Obligatorio de Servicios</td>
+                    </tr>
+                    <tr>
+                        <td>POSS</td>
+                        <td>Paquete Obligatorio de Servicios Subsidiado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </text>
+    <url
+        value="https://github.com/interoperar/fhir-local-terminologies/code-systems/coverage-type-co"/>
+    <identifier>
+        <system value="https://github.com/interoperar/fhir-local-terminologies/code-systems"/>
+        <value value="coverage-type-co"/>
+    </identifier>
+    <version value="1.0"/>
+    <name value="Tipo de cobertura"/>
+    <title value="Tipo de cobertura o tipo de usuario del sistema de salud"/>
+    <status value="active"/>
+    <date value="2018-01-01"/>
+    <publisher value="Ministerio de Salud y Protección Social"/>
+    <contact>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.minsalud.gov.co/"/>
+        </telecom>
+    </contact>
+    <description
+        value="#Descripción.
+        Tipo de cobertura o tipo de usuario del sistema de salud"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CO"/>
+            <display value="Colombia"/>
+        </coding>
+    </jurisdiction>
+    <copyright
+        value="* GNU LESSER GENERAL PUBLIC LICENSE *Version 3, 29 June 2007*
+        * Creative Commons Attribution-ShareAlike 4.0 International Public License"/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="Contributivo"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="Subsidiado"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="Vinculado"/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="Particular"/>
+    </concept>
+    <concept>
+        <code value="5"/>
+        <display value="Otro"/>
+    </concept>
+    <concept>
+        <code value="6"/>
+        <display value="Desplazado con afiliación al Régimen Contributivo"/>
+    </concept>
+    <concept>
+        <code value="7"/>
+        <display value="Desplazado con afiliación al régimen subsidiado"/>
+    </concept>
+    <concept>
+        <code value="8"/>
+        <display value="Desplazado no asegurado"/>
+    </concept>
+    <concept>
+        <code value="POS"/>
+        <display value="Paquete Obligatorio de Servicios"/>
+    </concept>
+    <concept>
+        <code value="POSS"/>
+        <display value="Paquete Obligatorio de Servicios Subsidiado"/>
+    </concept>
+</CodeSystem>
